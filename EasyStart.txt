@@ -1,0 +1,21 @@
+1. Create a new repository on Remote and Local
+
+create new ... >> New repository >>
+
+Fill Repository name* >> press Create repository Button
+
+
+2. In terminal insert Command
+
+git init    //git initialized local repository
+
+git add .   //(.) -> Add all working directory's files  on the Stage area
+
+git commit -m "commit message"  // recording message about version-up we added befor step(git add)
+
+git branch -M main              // -M => (--move --force)'shortcut . master branch to main branch
+
+git remote add origin https://github.com/${User.name}/${Repository.name}.git  //Connect Local Repo to Remote Repository
+
+git push -u origin main  // First pushing Stage area's files at Remote repository as origin , main branch
+                         // After second push Just do 'git push'
