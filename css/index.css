@@ -17,3 +17,30 @@ header {
     background-color: rgba(128, 128, 128, 0.411);
     border-radius: 10px;
 }
+
+section {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(153, 205, 50, 0.363);
+}
+
+section>.left {
+    width: 25%;
+    height: 400px;
+}
+
+section>.left>.lnb {
+    height: 250px;
+    margin-bottom: 10px;
+    background-color: blue;
+}
+
+section>.left>.ad {
+    height: 140px;
+    background-color: yellowgreen;
+}
+
+section>.cont {
+    width: 74%;
+    background-color: orange;
+}
