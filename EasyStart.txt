@@ -29,3 +29,6 @@ working directory       -     Stage area    -       repository (local)      -   
                       add ->              commit ->                       push ->
 
 +===================================================================+
+
+Change branch - > git switch  / git checkout
+View branch List - > git branch
