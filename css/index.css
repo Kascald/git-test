@@ -11,11 +11,16 @@
     /* border: 1px solid #000; */
 }
 
+header,
+section,.lnb, .ad , .cont , 
+footer{
+    border-radius: 10px;
+}
 
 header {
     height: 100px;
     background-color: rgba(128, 128, 128, 0.411);
-    border-radius: 10px;
+
 }
 
 section {
@@ -43,4 +48,9 @@ section>.left>.ad {
 section>.cont {
     width: 74%;
     background-color: orange;
+}
+
+footer {
+    height: 100px;
+    background-color: rgba(165, 42, 42, 0.459);
 }
