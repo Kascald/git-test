@@ -54,3 +54,12 @@ footer {
     height: 100px;
     background-color: rgba(165, 42, 42, 0.459);
 }
+
+@media screen and (max-width:750px){
+    #wrap{width: 100%; margin: 0;}
+    
+    section{display: block;}
+
+    section > .left {width: 100%;}
+    section>.left>.lnb {margin-bottom: 0;}
+    section > .cont {width: 100%; margin: 0;}}
