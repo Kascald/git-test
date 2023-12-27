@@ -19,3 +19,13 @@ git remote add origin https://github.com/${User.name}/${Repository.name}.git  //
 
 git push -u origin main  // First pushing Stage area's files at Remote repository as origin , main branch
                          // After second push Just do 'git push'
+
+
+
++===================================================================+
+
+working directory       -     Stage area    -       repository (local)      -       repository(remote)
+
+                      add ->              commit ->                       push ->
+
++===================================================================+
